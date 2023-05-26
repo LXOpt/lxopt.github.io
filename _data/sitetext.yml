@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Welcome to LXOpt!
-    text: It's Nice To Meet You
+    text: "The website is under development! Stay tuned!"
     button: Tell Me More
     buttonlink: "#services"
 
