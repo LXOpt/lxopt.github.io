@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to LXOpt!
+    title: Welcome to LXOpt!!!
     text: "stay tuned!"
     button: Tell Me More
     buttonlink: "#services"
