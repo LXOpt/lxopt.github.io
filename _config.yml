@@ -20,7 +20,7 @@ title      : LXOpt
 email      : zhengquan@lxopt.com #this is also the email contact forms will go to
 description: "Site description"
 author     : LXOpt
-# logo:     #optional, defaults to site title
+logo       : assets\logo.png
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
