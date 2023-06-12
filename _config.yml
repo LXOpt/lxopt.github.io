@@ -21,8 +21,8 @@ email      : zhengquan@lxopt.com #this is also the email contact forms will go t
 description: "Site description"
 author     : LXOpt
 logo       :
-  path: favicon.ico
-  height: 48 #height in px, defaults to 52px
+  path: assets/logo.png
+  height: 52 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
