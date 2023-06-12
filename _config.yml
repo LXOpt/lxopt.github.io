@@ -20,9 +20,9 @@ title      : LXOpt
 email      : zhengquan@lxopt.com #this is also the email contact forms will go to
 description: "Site description"
 author     : LXOpt
-logo       : assets\logo.png
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+#logo       :
+  #path: favicon.ico
+  #height: 48 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
