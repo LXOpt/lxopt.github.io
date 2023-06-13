@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to LXOpt!!!
-    text: "stay tuned!"
+    title: Leading Transformations
+    text: "Optimize profits with AI"
     button: Tell Me More
     buttonlink: "#services"
 
