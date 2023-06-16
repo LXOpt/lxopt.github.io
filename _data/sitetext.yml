@@ -14,25 +14,26 @@ en: &DEFAULT_EN
     title: Leading Transformations
     text: "Optimize profits with AI"
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   services:
     title: "Services"
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Consulting Service<br><br>"
+        desc: "We provide consulting services on the AI Merchandising to effectively improve our customer's sales."
+        icon: fas fa-comment #-comments-question-check #find more at https://fontawesome.com/icons
+      - title: "Price Optimization Software"
+        desc: "Our forecasting price models allow our customers to make more informed decisions on promotion, prices, and inventory management."
+        icon: fas fa-search-dollar
+      - title: "Market Analytical Tool<br><br>"
+      #"[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "We provide our customers with market analysis tools to better understand customer needs and sell them."
+        icon: fas fa-chart-line
 
   portfolio:
-    title: "Portfolio"
+    title: "Experience"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
@@ -70,8 +71,8 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "What We Do"
+    body: "We are a software company that helps conventional businesses transform by incorporating cutting-edge Data and AI technologies into their business strategization. By enabling more informed decision-making, we help these businesses unlock unique opportunities for growth."
     section: about
 
   clients:
@@ -173,7 +174,7 @@ es: &DEFAULT_ES
     title: ¡Bienvenido a nuestro Estudio!
     text: Es un placer conocerle
     button: Ver más
-    buttonlink: "#servicios"
+    buttonlink: "#about"
 
   services:
     title: "Servicios"
@@ -191,7 +192,7 @@ es: &DEFAULT_ES
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portafolio"
+    title: "Experience"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portafolio
     closebutton: "Cerrar Proyecto"
@@ -328,7 +329,7 @@ de: &DEFAULT_DE
     title: Willkommen auf unserer Webseite!
     text: Schön das Sie hier sind!
     button: Mehr erfahren
-    buttonlink: "#Angebote"
+    buttonlink: "#about"
 
   services:
     title: "Leistungen"
@@ -346,7 +347,7 @@ de: &DEFAULT_DE
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
+    title: "Experience"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: Portfolio
     closebutton: "Schließen"
