@@ -17,8 +17,8 @@ en: &DEFAULT_EN
     buttonlink: "#about"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Solutions"
+    text: "How We Can Help"
     section: services
     list:
       - title: "Consulting Service<br><br>"
@@ -72,7 +72,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "What We Do"
-    body: "We are a software company that helps conventional businesses transform by incorporating cutting-edge Data and AI technologies into their business strategization. By enabling more informed decision-making, we help these businesses unlock unique opportunities for growth."
+    body: "We help businesses transform their conventional processes by incorporating cutting-edge Data and AI technologies into their business strategization. By enabling more informed decision-making, we help these businesses unlock unique opportunities for growth."
     section: about
 
   clients:
