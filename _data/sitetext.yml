@@ -34,9 +34,9 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Experience"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Here are some industries we have collaborated with."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "Timeline"
