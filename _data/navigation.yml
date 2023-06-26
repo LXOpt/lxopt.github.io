@@ -15,7 +15,7 @@ en: &DEFAULT_EN
       section: about
     - title: "Solutions"
       section: services
-    - title: "Experience"
+    - title: "Industries"
       section: portfolio
     - title: "Contact"
       section: contact

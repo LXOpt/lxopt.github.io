@@ -33,7 +33,7 @@ en: &DEFAULT_EN
         icon: fas fa-chart-line
 
   portfolio:
-    title: "Experience"
+    title: "Industries"
     text: "Here are some industries we have collaborated with."
     section: portfolio
     closebutton: "Close"
@@ -192,7 +192,7 @@ es: &DEFAULT_ES
         icon: fab fa-markdown
 
   portfolio:
-    title: "Experience"
+    title: "Industries"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portafolio
     closebutton: "Cerrar Proyecto"
@@ -347,7 +347,7 @@ de: &DEFAULT_DE
         icon: fab fa-markdown
 
   portfolio:
-    title: "Experience"
+    title: "Industries"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: Portfolio
     closebutton: "Schließen"

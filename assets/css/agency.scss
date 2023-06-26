@@ -13,6 +13,7 @@ $darkerCol: {{ site.data.style.highlight | default: "#3a3a3a" }} !default;
 
 // Custom Images
 $header-image: "{{ site.data.style.header-image }}";
+//$portfolio-image: "{{ site.data.style.portfolio-image}}";
 $contact-image: "{{ site.data.style.contact-image }}";
 
 // Global CSS
