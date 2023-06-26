@@ -11,12 +11,4 @@ image: assets/img/portfolio/retail.jpg #https://place-hold.it/400x300 #main imag
 alt: image alt text
 
 ---
-Use this area to describe your project. **Markdown** supported.
-
-optional info list (delete if not using):
-
-{:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
-
+We have assisted retail companies in analyzing potential customers in a surrounding area to provide data on demands for certain goods and produce for more effective price and promotion planning.

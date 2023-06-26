@@ -10,10 +10,4 @@ caption:
   thumbnail: assets/img/portfolio/telecom.jpg
 ---
 
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
-{:.list-inline}
-
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
+We have helped telecom companies analyze their customers and understand the needs of their customers to allow for product improvements and personalization.
