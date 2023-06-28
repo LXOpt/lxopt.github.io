@@ -1,4 +1,5 @@
-
+---
+---
 $(function() {
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
@@ -20,7 +21,7 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $this = $("#sendMessageButton");
-      $this.prop("disabled", false); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
         url: url,
         type: "POST",
