@@ -23,7 +23,7 @@ author     : LXOpt
 logo       :
   path: assets/logo60.png
   height: 52 #height in px, defaults to 52px
-
+image      : assets/thumbnail0.jpg
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
