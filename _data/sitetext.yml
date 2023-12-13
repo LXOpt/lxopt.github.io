@@ -20,6 +20,8 @@ en: &DEFAULT_EN
     title: "Solutions"
     text: "How We Can Help"
     section: services
+    button: Request Demo
+    buttonlink: "#contact"
     list:
       - title: "Consulting Service<br><br>"
         desc: "We provide consulting services on the AI Merchandising to effectively improve our customer's sales."

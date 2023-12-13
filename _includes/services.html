@@ -23,8 +23,11 @@
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
 	  {% endfor %}
+    
       </div>
-	  
+      <div style = "text-align: center;">
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">{{ site.data.sitetext[site.locale].services.button }}</a>
+      </div>
     </div>
   </section>
 {% else %}
