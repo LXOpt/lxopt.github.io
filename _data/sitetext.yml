@@ -29,6 +29,7 @@ en: &DEFAULT_EN
       - title: "Price Optimization Software"
         desc: "Our forecasting price models allow our customers to make more informed decisions on promotion, prices, and inventory management."
         icon: fas fa-search-dollar
+        button: "y"
       - title: "Market Analytical Tool<br><br>"
       #"[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "We provide our customers with market analysis tools to better understand customer needs and sell them."

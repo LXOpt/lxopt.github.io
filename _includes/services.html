@@ -21,13 +21,17 @@
           </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          {% if service.button %}
+        <div style = "text-align: center;">
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">{{ site.data.sitetext[site.locale].services.button }}</a>
         </div>
+        {% endif %}
+        </div>
+        
 	  {% endfor %}
     
       </div>
-      <div style = "text-align: center;">
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">{{ site.data.sitetext[site.locale].services.button }}</a>
-      </div>
+      
     </div>
   </section>
 {% else %}
