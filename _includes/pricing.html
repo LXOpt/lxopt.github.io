@@ -1,3 +1,5 @@
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="pricing"></section>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,7 +72,7 @@
 						<div class="plan-features">
 							<div class="plan-feature-item">3-6 month price forecasting</div>
 							<div class="plan-feature-item">News Information</div>
-							<div class="plan-feature-item">Selection of 50% of our factor effects</div>
+							<div class="plan-feature-item">All of our factor effects</div>
                             <div class="plan-feature-item">Savable user factor overrides</div>
                             <div class="plan-feature-item">Full Access Event Simulation</div>
                             <div class="plan-feature-item">Administration</div>
@@ -111,3 +113,5 @@
 
 </body>
 </html>
+</section>
+{% endif %}
