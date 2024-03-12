@@ -1,0 +1,72 @@
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="pricing"></section>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pricing Table</title>
+	<!-- <link rel="stylesheet" type="text/css" href="PricingStyles.css"> -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="pricing-content">
+			<div class="PageWidth">
+				<div class="pricing-detail-content">
+					<div class="pricing-content-items-tabs">
+						<div class="pricing-yearly">
+							{% for plan in site.data.plans.discount20 %}
+							<div class="pricing-item">
+								<div class="pricing-item-box">
+									<div class="plan-name">{{ plan.name }}</div>
+									<div class="plan-text">{{ plan.text }}</div>
+									<div class="plan-price-content">
+										<div class="plan-price">{{ plan.price }}</div>
+									</div>
+									<div class="plan-features">
+										{% for feature in plan.features %}
+										<div class="plan-feature-item">{{ feature }}</div>
+										{% endfor %}
+									</div>
+									<div class="plan-button"><a href="{{ plan.button_link }}">{{ plan.button_text }}</a>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#tab1").click(function () {
+
+			$('.pricing-monthly').addClass('active-tab-content');
+			$('.pricing-yearly').hide();
+			$(this).addClass('tab-active');
+			$('#tab2').removeClass('tab-active');
+
+		});
+		$("#tab2").click(function () {
+
+			$('.pricing-monthly').removeClass('active-tab-content');
+			$('.pricing-yearly').show();
+			$(this).addClass('tab-active');
+			$('#tab1').removeClass('tab-active');
+		});
+	});
+
+</script>
+
+</html>
+</section>
+{% endif %}

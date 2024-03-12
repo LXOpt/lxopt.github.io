@@ -20,7 +20,7 @@
             <i class="{{ service.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
           </span>
           {% if service.button %}
-          <h4 class="service-heading"><a href="https://www.lxopt.com/opter-price" target=_blank title="Our Opter Price Options">{{ service.title | markdownify }}</a></h4>
+          <h4 class="service-heading"><a href="/opter-price/index" target=_blank title="Our Opter Price Options">{{ service.title | markdownify }}</a></h4>
           {%- else -%}
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% endif %}

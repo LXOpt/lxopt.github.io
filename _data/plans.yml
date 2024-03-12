@@ -1,0 +1,102 @@
+default:
+  - name: Forever Free
+    text: Choice for companies who would like to try out our opter price product
+    price: $0/month
+    features:
+      - 1 week price forcasting
+      - Basic Prediction Accuracy
+      - News Information
+    button_text: Try Now
+    button_link: https://price.opter.lxopt.com/#/signup?from=homepage
+
+  - name: Lite Monthly
+    text: Great for medium/large companies that would like to improve their process
+    price: $100/month
+    features:
+      - 1 month price forecasting
+      - Standard Prediction Accuracy
+      - News Information
+      - Partial Factor Effects
+      - Non savable user factor overrides
+      - Limited Event Simulation
+    button_text: Buy Professional
+    button_link: https://demo.opter.lxopt.com/#/signup
+
+  - name: Lite Yearly
+    text: Great for medium/large companies that would like to improve their process
+    price: $1000/year
+    features:
+      - 1 month price forecasting
+      - Standard Prediction Accuracy
+      - News Information
+      - Partial Factor Effects
+      - Non savable user factor overrides
+      - Limited Event Simulation
+    button_text: Buy Professional
+    button_link: https://demo.opter.lxopt.com/#/signup
+
+  - name: Enterprise
+    text: Best for Large agencies who want to transform their processes
+    price: Contact us
+    features:
+      - 3 months price forecasting
+      - Enhanced Prediction Accuracy
+      - News Information
+      - Full set Factor Effects
+      - Savable user factor overrides
+      - Full Access Event Simulation
+    button_text: Contact Us
+    button_link: "#contact"
+
+
+discount20:
+  - name: Forever Free
+    text: Choice for companies who would like to try out our opter price product
+    price: $0/month
+    features:
+      - 1 week price forcasting
+      - Basic Prediction Accuracy
+      - News Information
+    button_text: Try Now
+    button_link: https://price.opter.lxopt.com/#/signup?from=homepage
+
+  - name: Lite Monthly
+    text: Great for medium/large companies that would like to improve their process
+    price: $80/month
+    features:
+      - 1 month price forecasting
+      - Standard Prediction Accuracy
+      - News Information
+      - Partial Factor Effects
+      - Non savable user factor overrides
+      - Limited Event Simulation
+    button_text: Buy Professional
+    button_link: https://demo.opter.lxopt.com/#/signup
+
+  - name: Lite Yearly
+    text: Great for medium/large companies that would like to improve their process
+    price: $800/year
+    features:
+      - 1 month price forecasting
+      - Standard Prediction Accuracy
+      - News Information
+      - Partial Factor Effects
+      - Non savable user factor overrides
+      - Limited Event Simulation
+    button_text: Buy Professional
+    button_link: https://demo.opter.lxopt.com/#/signup
+
+  - name: Enterprise
+    text: Best for Large agencies who want to transform their processes
+    price: Contact us
+    features:
+      - 3 months price forecasting
+      - Enhanced Prediction Accuracy
+      - News Information
+      - Full set Factor Effects
+      - Savable user factor overrides
+      - Full Access Event Simulation
+    button_text: Contact Us
+    button_link: "#contact"
+
+
