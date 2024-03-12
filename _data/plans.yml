@@ -20,7 +20,7 @@ default:
       - Non savable user factor overrides
       - Limited Event Simulation
     button_text: Buy Professional
-    button_link: https://demo.opter.lxopt.com/#/signup
+    button_link: https://price.opter.lxopt.com/#/signup
 
   - name: Lite Yearly
     text: Great for medium/large companies that would like to improve their process
@@ -33,7 +33,7 @@ default:
       - Non savable user factor overrides
       - Limited Event Simulation
     button_text: Buy Professional
-    button_link: https://demo.opter.lxopt.com/#/signup
+    button_link: https://price.opter.lxopt.com/#/signup
 
   - name: Enterprise
     text: Best for Large agencies who want to transform their processes
@@ -71,7 +71,7 @@ discount20:
       - Non savable user factor overrides
       - Limited Event Simulation
     button_text: Buy Professional
-    button_link: https://demo.opter.lxopt.com/#/signup
+    button_link: https://price.opter.lxopt.com/#/signup
 
   - name: Lite Yearly
     text: Great for medium/large companies that would like to improve their process
@@ -84,7 +84,7 @@ discount20:
       - Non savable user factor overrides
       - Limited Event Simulation
     button_text: Buy Professional
-    button_link: https://demo.opter.lxopt.com/#/signup
+    button_link: https://price.opter.lxopt.com/#/signup?redirect_to=/upgrade/checkout?plan_id=2|coupon_code=test # | 表示 & 符号
 
   - name: Enterprise
     text: Best for Large agencies who want to transform their processes
