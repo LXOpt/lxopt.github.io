@@ -21,6 +21,9 @@
 							{% for plan in site.data.plans.default %}
 							<div class="pricing-item">
 								<div class="pricing-item-box">
+									{% if plan.is_popular %}
+									<span class="ribbon"></span>
+									{% endif %}
 									<div class="plan-name">{{ plan.name }}</div>
 									<div class="plan-text">{{ plan.text }}</div>
 									<div class="plan-price-content">

@@ -27,6 +27,7 @@ default:
     text: Great for medium/large companies that would like to improve their process
     price: $8499/year
     original_price: $9999/year
+    is_popular: true
     features:
       - 1 month price forecasting
       - Standard Prediction Accuracy
