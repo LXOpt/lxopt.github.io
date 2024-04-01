@@ -13,27 +13,33 @@
       </div>
 	  
       <div class="row text-center">
-	  {% for service in site.data.sitetext[site.locale].services.list %}
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
-          </span>
-          {% if service.button %}
-          <h4 class="service-heading"><a href="/opter-price/trend-prediction-tool" target=_blank title="Our Opter Price Options">{{ service.title | markdownify }}</a></h4>
-          {%- else -%}
-          <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% endif %}
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
-          {% if service.button %}
-        <div style = "text-align: center;">
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">{{ site.data.sitetext[site.locale].services.button }}</a>
-        </div>
-        <br>
-        {% endif %}
-        </div>
-        <br>
-	  {% endfor %}
+      {% for service in site.data.sitetext[site.locale].services.list %}
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
+            </span>
+            {% if service.button %}
+            <h4 class="service-heading"><a href="/opter-price/trend-prediction-tool" target=_blank title="Our Opter Price Options">{{ service.title | markdownify }}</a></h4>
+            {%- else -%}
+            <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+            {% endif %}
+            {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+            {% if service.button %}
+              <div style = "text-align: center;">
+                <!-- <a href="https://price.opter.lxopt.com"  style="font-size: 15px;">try it for free</a> -->
+                <a class="btn btn-primary text-uppercase js-scroll-trigger" target="_blank" href="https://price.opter.lxopt.com">
+                  Try it for free
+                </a>
+                <a class="btn btn-anti-primary text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">
+                  {{ site.data.sitetext[site.locale].services.button }}
+                </a>
+              </div>
+              <br>
+            {% endif %}
+          </div>
+          <br>
+      {% endfor %}
     
       </div>
       

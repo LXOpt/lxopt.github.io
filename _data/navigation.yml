@@ -27,8 +27,8 @@ en: &DEFAULT_EN
      # section: team
     #- title: "Contact"
      # section: contact
-    #- title: "Theme Source"
-     # url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: "Login"
+      url: https://price.opter.lxopt.com/
 en-US:
   <<: *DEFAULT_EN
 en-CA:

@@ -24,3 +24,19 @@
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
   }
 }
+
+.btn-anti-primary {
+  background-color: white;
+  border-color: white;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken(white, 7.5%) !important;
+    border-color: darken(white, 7.5%) !important;
+    color: $primary;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  }
+}
