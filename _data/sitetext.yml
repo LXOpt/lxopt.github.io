@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: Leading Transformations
     text: "Optimize profits with AI"
     button: Tell Me More
-    buttonlink: "#about"
+    buttonlink: "#services"
 
   services:
     title: "Solutions"
