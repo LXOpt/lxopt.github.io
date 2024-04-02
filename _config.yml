@@ -18,7 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : "LXOpt: Leading Transformation"
 email      : info@lxopt.com #this is also the email contact forms will go to
-description: "LXOpt offers services to help companies transform their conventional processes by incorporating Data and AI technologies."
+description: "Opter Price provides accurate commodity price trend predictions for Hot Rolled Coil, Petroleum, TiO2, Nickel, Zinc, Tin, Acetylene, Aluminum, and Carbon Black."
 author     : LXOpt
 logo       :
   path: assets/logo60.png
