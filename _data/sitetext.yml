@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         desc: "We provide consulting services on the AI Merchandising to effectively improve our customer's sales."
         icon: fas fa-comment #-comments-question-check #find more at https://fontawesome.com/icons
       - title: "Price Optimization Software"
-        desc: "We provide an excellent software for precise commodity price trend predictions, offering reliable forecasts for a variety of commodities including Hot Rolled Coil(热轧钢卷), Petroleum(石油), TiO2(二氧化钛), Nickel(镍), Zinc(锌), Tin(锡), Acetylene(乙炔), Aluminum(铝), and Carbon Black(碳黑)."
+        desc: "We provide an excellent software for precise commodity price trend predictions, commodities including Hot Rolled Coil(热轧钢卷), Petroleum(石油), TiO2(二氧化钛), Nickel(镍), Zinc(锌), Tin(锡), Acetylene(乙炔), Aluminum(铝), and Carbon Black(碳黑)."
         icon: fas fa-search-dollar
         button: "y"
       - title: "Market Analytical Tool<br><br>"
