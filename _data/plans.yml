@@ -1,5 +1,5 @@
 default:
-  - name: Free
+  - name: Free Forever
     text: Choice for companies who would like to try out our opter price product
     price: $0/month
     features:
