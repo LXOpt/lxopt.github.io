@@ -42,23 +42,21 @@
         {% endfor %}
         {% endif %}
         </ul>
-        <div class="dropdown-content">
-          <div class="text-content">
-            <span class="highlight">Free</span> price prediction for
-            <select>
-              <option value="Hot Rolled Coil">Hot Rolled Coil</option>
-              <option value="Petroleum">Petroleum</option>
-              <option value="TiO2">TiO2</option>
-              <option value="Nickel">Nickel</option>
-              <option value="Zinc">Zinc</option>
-              <option value="Tin">Tin</option>
-              <option value="Acetylene">Acetylene</option>
-              <option value="Aluminum">Aluminum</option>
-            </select>
-          </div>
-      
-          <a class="btn btn-primary" style="font-size: 13px; margin-top: 10px;" href="https://price.opter.lxopt.com/#/signup?from=homepage">Let's Go!</a>
-      
+      </div>
+      <div class="dropdown-content">
+        <div class="text-content">
+          <span class="highlight">Free</span> price prediction<br>
+          <select>
+            <option value="Hot Rolled Coil">Hot Rolled Coil</option>
+            <option value="Petroleum">Petroleum</option>
+            <option value="TiO2">TiO2</option>
+            <option value="Nickel">Nickel</option>
+            <option value="Zinc">Zinc</option>
+            <option value="Tin">Tin</option>
+            <option value="Acetylene">Acetylene</option>
+            <option value="Aluminum">Aluminum</option>
+          </select>
+          <a class="btn-hl btn-primary-hl" href="https://price.opter.lxopt.com/#/signup?from=homepage">SELECT</a>
         </div>
       </div>
     </div>
@@ -103,7 +101,7 @@
 <style>
 
 .text-content {
-  font-size: 18px;
+  font-size: 20px;
   color: #333;
 }
 
@@ -114,7 +112,7 @@
 }
 
 select {
-  margin-left: 4px;
+  /* margin-left: 2px; */
   padding: 4px 8px;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -122,36 +120,45 @@ select {
   background: rgba(255,255,255,0.65);
 }
 
-.btn {
+.btn-hl {
   display: inline-block;
-  /* padding: 8px 16px; */
+  padding: 2px 4px;
   border-radius: 4px;
   text-decoration: none;
   font-size: 14px;
+  font-weight: bold;
   transition: background-color 0.3s ease;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
-.btn-primary {
+.btn-primary-hl {
   background-color: #ff6347;
   color: #fff;
+  &:hover {
+    background-color: darken(#ff6347, 7.5%) !important;
+    border-color: darken(#ff6347, 7.5%) !important;
+    color: white;
+  }
 }
 
-.btn-primary:hover {
+.btn-primary-hl:hover {
   background-color: #ff4c29;
 }
 
 .dropdown-content {
-  width: 20%;
-  position: absolute;
+  position: fixed;
   background-color: #fff;
-  min-width: 390px; /* 增加宽度以适应新内容 */
+  width: 230px; /* 增加宽度以适应新内容 */
   box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* 增加阴影深度 */
   padding: 10px; 
   z-index: 1;
   text-transform: none;
   border-radius: 10px;
+  left: calc(40% + 16%); /* 水平中间偏右 20% */
+  top: 10%; /* 垂直居中 */
   transition: transform 0.3s ease; /* 添加过渡效果 */
-  transform: translate(120%, 90%); /* 左移 30%,下降 10% */
+  /* transform: translate(0%, 90%); 左移 30%,下降 10% */
   /* 背景透明度为30% */
   background: rgba(255,255,255,0.65);
 
