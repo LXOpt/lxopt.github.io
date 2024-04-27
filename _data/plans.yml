@@ -7,7 +7,7 @@ default:
       - Basic Prediction Accuracy
       - News Information
     button_text: Try Now
-    button_link: https://price.opter.lxopt.com/#/signup?from=homepage
+    button_link: https://price.opter.lxopt.com/#/signup?from=landing
 
   - name: Lite Monthly
     text: Great for medium/large companies that would like to improve their process
@@ -21,7 +21,7 @@ default:
       - Non savable user factor overrides
       - Limited Event Simulation
     button_text: Buy Professional
-    button_link: https://price.opter.lxopt.com/#/signup?plan_type=lite&plan_id=2
+    button_link: https://price.opter.lxopt.com/#/signup?from=landing&plan_type=lite&plan_id=2
 
   - name: Lite Yearly
     text: Great for medium/large companies that would like to improve their process
@@ -36,7 +36,7 @@ default:
       - Non savable user factor overrides
       - Limited Event Simulation
     button_text: Buy Professional
-    button_link: https://price.opter.lxopt.com/#/signup?plan_type=lite&plan_id=3
+    button_link: https://price.opter.lxopt.com/#/signup?from=landing&plan_type=lite&plan_id=3
 
   - name: Enterprise
     text: Best for Large agencies who want to transform their processes
@@ -61,7 +61,7 @@ discount20:
       - Basic Prediction Accuracy
       - News Information
     button_text: Try Now
-    button_link: https://price.opter.lxopt.com/#/signup?from=homepage
+    button_link: https://price.opter.lxopt.com/#/signup?from=landing
 
   - name: Lite Monthly
     text: Great for medium/large companies that would like to improve their process
