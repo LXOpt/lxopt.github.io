@@ -10,4 +10,4 @@ caption:
   thumbnail: assets/img/portfolio/telecom.jpg
 ---
 
-We have helped telecom companies analyze their customers and understand the needs of their customers to allow for product improvements and personalization.
+We have helped telecom companies analyze their customers' needs to allow for improvements and personalizations to both their products and marketing strategies.
