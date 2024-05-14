@@ -225,7 +225,7 @@ body {
     border-color: #2e6ad4;
 }
 
-.plan-feature-item:before {content: "";width: 14px;height: 14px;/* border: 1px solid #a9a9a9; */background: #eee;margin-right: 7px;/* border-radius: 50px; */margin-bottom: 2px;}
+.plan-feature-item:before {content: "✔";width: 14px;height: 14px;/* border: 1px solid #a9a9a9; */background: transparent;margin-right: 7px;/* border-radius: 50px; */margin-bottom: 2px;}
 .ribbon:before, .ribbon:after {
     content: "";
     display: block;
