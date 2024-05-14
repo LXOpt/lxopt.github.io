@@ -9,4 +9,4 @@ caption:
   subtitle:
   thumbnail: assets/img/portfolio/manufacturing.jpg
 ---
-We have helped manufacturing companies by providing possible future prices for their products and raw materials to allow informed decisions to minimize costs and optimize profits.
+We have provided manufacturing companies with raw material price volatility analysis and forecasting services. This price trend insight enabling better cost-effective supply chain strategies to minimize raw material costs and maximize profits.
