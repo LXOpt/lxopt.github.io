@@ -81,6 +81,10 @@ Then open your browser at:
 
 Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
 
+
+## Debug
+ruby version reference: https://stackoverflow.com/questions/77851863/bundle-exec-jekyll-serve-not-working-locally
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
