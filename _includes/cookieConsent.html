@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cookie Consent</title>
+<style>
+    /* CSS样式 */
+    #cookie-consent {
+        display: none;
+        position: fixed;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+        max-width: 600px; /* 最大宽度为600px */
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+        animation: float 3s infinite alternate ease-in-out;
+    }
+
+    #cookie-consent.visible {
+        display: block;
+    }
+
+    #overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9998;
+    }
+
+    body.modal-open {
+        overflow: hidden; /* 防止滚动 */
+    }
+
+    button {
+        margin-right: 10px;
+        background-color: #ff6347;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #d1472d;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+
+<div id="overlay"></div>
+
+<div id="cookie-consent" class="visible">
+    <p style="font-size: 20px;">This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our <a href="/legal">Cookie Policy</a>.</p>
+    <button id="accept-btn">Accept</button>
+    <button id="reject-btn">Reject</button>
+</div>
+
+<script>
+    // JavaScript代码
+    document.addEventListener("DOMContentLoaded", function() {
+        var consentContainer = document.getElementById("cookie-consent");
+        var acceptBtn = document.getElementById("accept-btn");
+        var rejectBtn = document.getElementById("reject-btn");
+        var overlay = document.getElementById("overlay");
+
+        // 检查是否已经同意过cookie
+        if (localStorage.getItem("cookie_consent") !== "accepted") {
+            showConsent(); // 如果未同意，显示cookie consent窗口
+        } else {
+            hideConsent(); // 如果已同意，隐藏cookie consent窗口
+        }
+
+        function showConsent() {
+            consentContainer.classList.add("visible");
+            overlay.style.display = "block";
+            document.body.classList.add("modal-open"); // 添加类以防止滚动
+        }
+
+        function hideConsent() {
+            consentContainer.classList.remove("visible");
+            overlay.style.display = "none";
+            document.body.classList.remove("modal-open"); // 移除类以恢复滚动
+        }
+
+        acceptBtn.addEventListener("click", function() {
+            // 设置localStorage
+            localStorage.setItem("cookie_consent", "accepted");
+            // 关闭信息窗
+            hideConsent();
+        });
+
+        rejectBtn.addEventListener("click", function() {
+            alert("Please close the page to reject cookies.");
+
+            // 关闭信息窗
+            // hideConsent();
+        });
+    });
+</script>
+
+</body>
+</html>

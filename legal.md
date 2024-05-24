@@ -10,7 +10,7 @@ background: grey
 
 This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
 
-**PERSONAL INFORMATION WE COLLECT**
+**Cookie Policy**
 
 {% if site.analytics.google %}
 
@@ -20,9 +20,9 @@ When you visit the Site, we automatically receive information about your device 
 
 We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org.
 
-We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
+We use Google Analytics, a web analytics service provided by Google Inc. ("Google"), to collect and analyze information about how users interact with our Site. Google Analytics uses cookies to collect information such as how often users visit the Site, what pages they visit, and what other websites they used prior to coming to the Site. We use the information provided by Google Analytics to improve our Site and better understand our users.
 
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
+By using our Site, you consent to the processing of data about you by Google in the manner described in Google's Privacy Policy: <https://policies.google.com/privacy>.
 
 {% else %}
 
