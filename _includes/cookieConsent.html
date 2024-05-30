@@ -60,6 +60,7 @@
         font-size: 20px;
         line-height: 1.5;
         color: #333;
+        font-family: Arial, sans-serif;
     }
 </style>
 </head>
@@ -69,7 +70,7 @@
 
 <div id="cookie-consent" class="visible">
     <p class="consent_p">
-        This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our <a href="/legal">Cookie Policy</a>.
+        This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our <a href="/legal" class="consent_p" target="_blank">Cookie Policy</a>.
     </p>
     <button class="consent_button" id="accept-btn">Accept</button>
     <button class="consent_button" style="color:#333;background-color: white;" id="reject-btn">Reject</button>
@@ -81,7 +82,7 @@
         var consentContainer = document.getElementById("cookie-consent");
         var acceptBtn = document.getElementById("accept-btn");
         var rejectBtn = document.getElementById("reject-btn");
-        var overlay = document.getElementById("overlay");
+        // var overlay = document.getElementById("overlay");
 
         // 检查是否已经同意过cookie
         if (localStorage.getItem("cookie_consent") !== "accepted") {
@@ -92,13 +93,13 @@
 
         function showConsent() {
             consentContainer.classList.add("visible");
-            overlay.style.display = "block";
+            // overlay.style.display = "block";
             document.body.classList.add("modal-open"); // 添加类以防止滚动
         }
 
         function hideConsent() {
             consentContainer.classList.remove("visible");
-            overlay.style.display = "none";
+            // overlay.style.display = "none";
             document.body.classList.remove("modal-open"); // 移除类以恢复滚动
         }
 
