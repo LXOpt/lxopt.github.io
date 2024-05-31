@@ -30,7 +30,7 @@ en: &DEFAULT_EN
     - title: "Login"
       url: https://price.opter.lxopt.com/
     # - title: "Free trend prediction?"
-    #   highlight: "We provide an excellent software Opter Price for precise commodity price trend predictions, commodities including Hot Rolled Coil(热轧钢卷), Petroleum(石油), TiO2(二氧化钛), Nickel(镍), Zinc(锌), Tin(锡), Acetylene(乙炔), Aluminum(铝), and Carbon Black(碳黑)."
+    #   highlight: "We provide an excellent software Opter Price for precise commodity price trend predictions, commodities including Hot Rolled Coil(热轧钢卷), Petroleum(石油), TiO2(二氧化钛), Nickel(镍), Zinc(锌), Tin(锡), Acetylene(乙炔), Aluminum(铝), Carbon Black(碳黑) and Copper(铜)."
     #   link: "/opter-price/trend-prediction-tool"
 en-US:
   <<: *DEFAULT_EN
