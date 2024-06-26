@@ -11,8 +11,8 @@ default:
 
   - name: Lite Monthly
     text: Great for medium/large companies that would like to improve their process
-    price: $759/month
-    original_price: $799/month
+    price: $1,699/month
+    original_price: $1,799/month
     features:
       - 1 month price forecasting
       - Standard Prediction Accuracy
@@ -25,8 +25,8 @@ default:
 
   - name: Lite Yearly
     text: Great for medium/large companies that would like to improve their process
-    price: $8499/year
-    original_price: $9999/year
+    price: $17,999/year
+    original_price: $19,999/year
     is_popular: true
     features:
       - 1 month price forecasting
